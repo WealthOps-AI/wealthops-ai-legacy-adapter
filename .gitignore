@@ -1,0 +1,23 @@
+# .NET Framework / Visual Studio build output
+**/bin/
+**/obj/
+TestResults/
+packages/
+*.pdb
+*.cache
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+*.publishsettings
+
+# Logs and temporary files
+*.log
+*.tmp
